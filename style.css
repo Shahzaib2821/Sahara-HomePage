@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("pics/background.png"); 
+    
+}
+/* Container */
+.container{
+    background-position: center;
+    background-size: cover;
+    
+
+}
+/* Images */
+.logo{
+    width: 55px;
+    cursor: pointer;
+    padding-left: 5rem;
+    padding-top: 1.2rem;
+}
+.menu{
+    height: 35px;
+    cursor: pointer;
+    padding-right: 5rem; 
+    padding-top: 1rem;
+     padding-left: 2rem;
+}
+/* NavBar */
+.nav{
+    display: flex;
+    /* height: 3rem; */
+    font-family:'Courier New', Courier, monospace ;
+}
+nav{
+    flex: 1;
+    text-align: end;
+    padding: 0 2rem;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 1.6rem;
+    font-size: 1.2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.row{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.col{
+    flex-basis: 50%;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+h1{
+    color: aliceblue;
+    font-size: 100px;
+}
+.p1{
+    color: wheat;
+    font-size: 15px;
+    line-height: 20px;
+    
+}
+button{
+    width: 100px;
+    color: #000;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 17px;
+    margin-top: 20px;
+}
+.card{
+    width: 180px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    padding: 10px 10px;
+    margin: 1rem 1rem;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translatey(-10px);
+}
+.card1{
+    background-image: url("pics/pic-1.png");
+}
+.card2{
+    background-image: url("pics/pic-2.png");
+    
+}
+.card3{
+    background-image: url("pics/pic-3.png");
+}
+.card4{
+    background-image: url("pics/pic-4.png");
+}
+.p2{
+    /* line-height:; */
+    font-size: small;
+    color: aliceblue;
+
+}
+h5{
+    color: white;
+    text-shadow: 0 0 5px #999;
+}
