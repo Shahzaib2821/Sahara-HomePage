@@ -57,8 +57,6 @@ nav ul li a:hover{
 .row{
     display: flex;
     align-items: center;
-    
-    
 }
 .col{
     flex-basis: 50%;
@@ -83,7 +81,13 @@ button{
     border-radius: 20px;
     padding: 10px 17px;
     margin-top: 20px;
+    transition: transform 0.5s;
 }
+button:hover{
+   background-color: #cecbcb;
+   cursor: pointer;
+}
+
 .card{
     width: 180px;
     height: 220px;
